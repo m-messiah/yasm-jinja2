@@ -4,7 +4,5 @@
 
 This is a plugin for TextMate and Sublime Text editors adding support of Jinja2 templates syntax.
 
-The plugin can be found in [Package Control](https://packagecontrol.io/) as 'Jinja2 Better Syntax'.
-
-**Package Control Status**: [on review](https://github.com/wbond/package_control_channel/pull/4688)
+The plugin can be found in [Package Control](https://packagecontrol.io/) as 'Jinja2'.
 
