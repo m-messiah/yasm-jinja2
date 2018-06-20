@@ -6,7 +6,7 @@
 	<string>nop</string>
 	<key>command</key>
 	<string>. "$TM_SUPPORT_PATH/lib/webpreview.sh"
-html_header "Jinja2 Help" "Jinja2"
+html_header "YASM-Jinja2 Help" "YASM-Jinja2"
 
 Markdown.pl &lt;&lt;'EOF'
 

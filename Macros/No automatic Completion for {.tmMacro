@@ -6,15 +6,15 @@
 	<array>
 		<dict>
 			<key>argument</key>
-			<string>{</string>
+			<string>&lt;</string>
 			<key>command</key>
 			<string>insertText:</string>
 		</dict>
 	</array>
 	<key>keyEquivalent</key>
-	<string>{</string>
+	<string>&lt;</string>
 	<key>name</key>
-	<string>No automatic Completion for {</string>
+	<string>No automatic Completion for <</string>
 	<key>scope</key>
 	<string>source.jinja2, text.html.jinja2</string>
 	<key>uuid</key>

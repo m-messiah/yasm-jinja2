@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% $0 %}</string>
+	<string>&lt;% $0 %&gt;</string>
 	<key>name</key>
 	<string>Complete Block</string>
 	<key>scope</key>
 	<string>source.jinja2, text.html.jinja2</string>
 	<key>tabTrigger</key>
-	<string>{%</string>
+	<string>&lt;%</string>
 	<key>uuid</key>
 	<string>08A0C481-0E5A-425E-9486-EC7D681DA01D</string>
 </dict>

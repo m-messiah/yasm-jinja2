@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{{ $0 }}</string>
+	<string>&lt;&lt; $0 &gt;&gt;</string>
 	<key>name</key>
 	<string>Complete Variable</string>
 	<key>scope</key>
 	<string>source.jinja2, text.html.jinja2</string>
 	<key>tabTrigger</key>
-	<string>{{</string>
+	<string>&lt;&lt;</string>
 	<key>uuid</key>
 	<string>502E364B-D4D5-45F0-A996-5E71B3E5B7B6</string>
 </dict>

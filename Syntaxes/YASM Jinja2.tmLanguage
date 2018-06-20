@@ -5,18 +5,19 @@
 	<key>fileTypes</key>
 	<array>
 		<string>j2</string>
+		<string>jinja2</string>
 	</array>
 	<key>foldingStartMarker</key>
-	<string>({%\s*(block|filter|for|if|macro|raw))</string>
+	<string>(&lt;%\s*(block|filter|for|if|macro|raw))</string>
 	<key>foldingStopMarker</key>
-	<string>({%\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\s*%})</string>
+	<string>(&lt;%\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\s*%&gt;)</string>
 	<key>name</key>
-	<string>Jinja2</string>
+	<string>YASM Jinja2</string>
 	<key>patterns</key>
 	<array>
 		<dict>
 			<key>begin</key>
-			<string>({%)\s*(raw)\s*(%})</string>
+			<string>(&lt;%)\s*(raw)\s*(%&gt;)</string>
 			<key>captures</key>
 			<dict>
 				<key>1</key>
@@ -36,13 +37,13 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>({%)\s*(endraw)\s*(%})</string>
+			<string>(&lt;%)\s*(endraw)\s*(%&gt;)</string>
 			<key>name</key>
 			<string>comment.block.jinja2.raw</string>
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>{#-?</string>
+			<string>&lt;#-?</string>
 			<key>captures</key>
 			<dict>
 				<key>0</key>
@@ -52,13 +53,13 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>-?#}</string>
+			<string>-?#&gt;</string>
 			<key>name</key>
 			<string>comment.block.jinja2</string>
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>{{-?</string>
+			<string>&lt;&lt;-?</string>
 			<key>captures</key>
 			<dict>
 				<key>0</key>
@@ -68,7 +69,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>-?}}</string>
+			<string>-?&gt;&gt;</string>
 			<key>name</key>
 			<string>meta.scope.jinja2.variable</string>
 			<key>patterns</key>
@@ -81,7 +82,7 @@
 		</dict>
 		<dict>
 			<key>begin</key>
-			<string>{%-?</string>
+			<string>&lt;%-?</string>
 			<key>captures</key>
 			<dict>
 				<key>0</key>
@@ -91,7 +92,7 @@
 				</dict>
 			</dict>
 			<key>end</key>
-			<string>-?%}</string>
+			<string>-?%&gt;</string>
 			<key>name</key>
 			<string>meta.scope.jinja2.tag</string>
 			<key>patterns</key>

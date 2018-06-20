@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% extends ${1:"${2:template}"} %}</string>
+	<string>&lt;% extends ${1:"${2:template}"} %&gt;</string>
 	<key>name</key>
 	<string>Extends</string>
 	<key>scope</key>

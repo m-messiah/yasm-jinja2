@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% macro ${1:name}(${2:args}) %}
+	<string>&lt;% macro ${1:name}(${2:args}) %&gt;
 	$3
-{% endmacro %}</string>
+&lt;% endmacro %&gt;</string>
 	<key>name</key>
 	<string>Macro</string>
 	<key>scope</key>

@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% filter ${1:filter} %}
+	<string>&lt;% filter ${1:filter} %&gt;
 	$2
-{% endfilter %}</string>
+&lt;% endfilter %&gt;</string>
 	<key>name</key>
 	<string>Filter</string>
 	<key>scope</key>

@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{% for ${1:item} in ${2:sequence} %}
+	<string>&lt;% for ${1:item} in ${2:sequence} %&gt;
 	$3
-{% endfor %}</string>
+&lt;% endfor %&gt;</string>
 	<key>name</key>
 	<string>For</string>
 	<key>scope</key>
