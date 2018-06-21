@@ -5,7 +5,7 @@
 	<key>name</key>
 	<string>Comments</string>
 	<key>scope</key>
-	<string>text.html.jinja2</string>
+	<string>source.json.yasm.jinja2</string>
 	<key>settings</key>
 	<dict>
 		<key>shellVariables</key>
@@ -25,6 +25,6 @@
 		</array>
 	</dict>
 	<key>uuid</key>
-	<string>B79BDBCF-D0C9-468E-BE62-744074D7825F</string>
+	<string>9B52C07D-990B-4298-A90A-B09A9CCCE0B0</string>
 </dict>
 </plist>

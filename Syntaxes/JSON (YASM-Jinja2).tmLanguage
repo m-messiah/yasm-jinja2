@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array>
+		<string>json.j2</string>
+		<string>json.jinja2</string>
+	</array>
+	<key>firstLineMatch</key>
+	<string>^&lt;% set .* %&gt;</string>
+	<key>foldingStartMarker</key>
+	<string>([{\[]|&lt;%\s*(block|filter|for|if|macro|raw)|&lt;&lt;)</string>
+	<key>foldingStopMarker</key>
+	<string>([}\]]|&lt;%\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\s*%&gt;|&gt;&gt;)</string>
+	<key>name</key>
+	<string>JSON (YASM-Jinja2)</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>include</key>
+			<string>source.json</string>
+		</dict>
+		<dict>
+			<key>include</key>
+			<string>source.yasm.jinja2</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.json.yasm.jinja2</string>
+	<key>uuid</key>
+	<string>1A61976E-12C4-4A88-95EF-8EAB18E30AEB</string>
+</dict>
+</plist>
