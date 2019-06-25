@@ -12,7 +12,7 @@
 	<key>foldingStopMarker</key>
 	<string>(&lt;%\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\s*%&gt;)</string>
 	<key>name</key>
-	<string>YASM Jinja2</string>
+	<string>YASMJinja2</string>
 	<key>patterns</key>
 	<array>
 		<dict>

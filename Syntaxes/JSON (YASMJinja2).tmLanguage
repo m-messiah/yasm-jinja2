@@ -14,7 +14,7 @@
 	<key>foldingStopMarker</key>
 	<string>([}\]]|&lt;%\s*(endblock|endfilter|endfor|endif|endmacro|endraw)\s*%&gt;|&gt;&gt;)</string>
 	<key>name</key>
-	<string>JSON (YASM-Jinja2)</string>
+	<string>JSON (YASMJinja2)</string>
 	<key>patterns</key>
 	<array>
 		<dict>
